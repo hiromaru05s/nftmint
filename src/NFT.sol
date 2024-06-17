@@ -22,11 +22,4 @@ contract NFT is ERC721URIStorage, Ownable {
         _safeMint(to, tokenId);
         _setTokenURI(tokenId, uri);
     }
-
-    /**
-     * @dev Override _baseURI to return the base URI for computing {tokenURI}.
-     */
-    function _baseURI() internal view virtual override returns (string memory) {
-        return "https://api.example.com/metadata/";
-    }
 }
