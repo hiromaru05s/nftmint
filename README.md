@@ -64,3 +64,7 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+------------------------------------------------------------------------------------------------
+Deployed on Arbitrum mainnet
+
+Contract address: 0x7001c8215e57B5bEc7Fc86aEd1F0f980B2507f2a
